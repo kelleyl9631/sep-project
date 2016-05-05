@@ -1,5 +1,10 @@
 body{
-    background: rgb(240, 95, 64);
+    background: #fff;
+}
+
+.navbar {
+    font-size: 28px;
+    padding-top: 20px; 
 }
 
 
