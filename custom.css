@@ -16,10 +16,46 @@ body {
     background-color: gray;
 }
 
-#h{
+#h1{
     padding-top: 50px;
     text-align: center;
     background-image: url(img/key.JPG);
+    background-size:cover;
+    height: 200px;
+    background-position: center;
+}
+
+#h2{
+    padding-top: 50px;
+    text-align: center;
+    background-image: url();
+    background-size:cover;
+    height: 200px;
+    background-position: center;
+}
+
+#h3{
+    padding-top: 50px;
+    text-align: center;
+    background-image: url();
+    background-size:cover;
+    height: 200px;
+    background-position: center;
+}
+
+#h4{
+    padding-top: 50px;
+    text-align: center;
+    background-image: url();
+    background-size:cover;
+    height: 200px;
+    background-position: center;
+}
+
+#h5{
+    padding-top: 50px;
+    text-align: center;
+    background-image: url();
     background-size:cover;
     height: 200px;
     background-position: center;
