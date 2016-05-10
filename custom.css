@@ -33,7 +33,7 @@ body {
     animation-duration: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
-    font-family: Lora, sans-serif;
+    font-family: Francois One, sans-serif;
 }
 
 #Code {
@@ -42,7 +42,7 @@ body {
     animation-delay: 0.7s;
     opacity: 0;
     animation-fill-mode: forwards;
-    font-family: Lora, sans-serif;
+    font-family:Francois One, sans-serif;
 }
 #With {
     animation-name: fade3;
@@ -50,7 +50,7 @@ body {
     animation-delay: 1.4s;
     opacity: 0;
     animation-fill-mode: forwards;
-    font-family: Lora, sans-serif;
+    font-family: Francois One, sans-serif;
 }
 
 #Us {
@@ -59,7 +59,7 @@ body {
     animation-delay: 2.1s;
     opacity: 0;
     animation-fill-mode: forwards;
-    font-family: Lora, sans-serif;
+    font-family:Francois One, sans-serif;
 }
 @keyframes fade1 {
     to {
