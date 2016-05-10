@@ -14,18 +14,23 @@ body {
 }
 
 #navbar {
-    height: 150px;
-    background-color: lightblue;
-
+    height: 100px;
+   
 }
 
 #myNavbar {
+     /*background-color: transparent;*/
+
+
     padding-left: 200px;
-    padding-top: 100px;
+    padding-top: 50px;
+    font-family: Chewy; 
+    font-size: 18px;
 }
 
 #collapse {
     background-color: gray;
+
 }
 
 #h1{
@@ -35,6 +40,8 @@ body {
     background-size:cover;
     height: 200px;
     background-position: center;
+    font-family: Dancing Script;
+    color: 
 }
 
 #h2{
