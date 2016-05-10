@@ -146,10 +146,10 @@ body {
 .photos img:nth-of-type(1) {
     left: 50px;
     top: 50px;
-    -webkit-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    -o-transform: rotate(5deg);
-    transform: rotate(5deg);
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    transform: rotate(7deg);
 }
  
 .photos img:nth-of-type(2) {
