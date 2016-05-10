@@ -29,76 +29,24 @@ body {
     background-size:cover;
     height: 200px;
     background-position: center;
-    font-family: Dancing Script;
-    color: 
+    font-family:Dancing Script;
+    color:white; 
 }
 
-/*animation for Shabr text*/
 
-#Come{
-    animation-name: fade1;
-    animation-duration: 2s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    font-family: Francois One, sans-serif;
-}
+/*animation for text*/
 
-#Code {
-    animation-name: fade2;
-    animation-duration: 1.5s;
-    animation-delay: 0.7s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    font-family:Francois One, sans-serif;
-}
-#With {
-    animation-name: fade3;
-    animation-duration: 1.5s;
-    animation-delay: 1.4s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    font-family: Francois One, sans-serif;
-}
 
-#Us {
-    animation-name: fade4;
-    animation-duration: 1.5s;
-    animation-delay: 2.1s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    font-family:Francois One, sans-serif;
+#h2{
+    padding-top: 50px;
+    text-align: center;
+    background-image: url();
+    background-size:cover;
+    height: 200px;
+    background-position: center;
+    font-family:Dancing Script;
+    color:white; 
 }
-@keyframes fade1 {
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fade2 {
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fade3 {
-    to {
-        opacity: 1;
-    }
-}
-@keyframes fade4 {
-    to {
-        opacity: 1;
-    }
-}
-
-/*#h2{*/
-/*    padding-top: 50px;*/
-/*    text-align: center;*/
-/*    background-image: url();*/
-/*    background-size:cover;*/
-/*    height: 200px;*/
-/*    background-position: center;*/
-/*}*/
 
 #h3{
     padding-top: 50px;
@@ -107,6 +55,8 @@ body {
     background-size:cover;
     height: 200px;
     background-position: center;
+    font-family:Dancing Script;
+    color:black; 
 }
 
 #h4{
@@ -116,6 +66,8 @@ body {
     background-size:cover;
     height: 200px;
     background-position: center;
+    font-family:Dancing Script;
+    color:black; 
 }
 
 #h5{
@@ -125,6 +77,8 @@ body {
     background-size:cover;
     height: 200px;
     background-position: center;
+    font-family:Dancing Script;
+    color:black; 
 }
 
 /*Photo Hover*/
@@ -142,7 +96,7 @@ body {
 }
  
 .photos img:nth-of-type(3) {
-    left: 250px;
+    left: 350px;
     top: 50px;
 }
  
@@ -186,7 +140,7 @@ body {
     transform: rotate(-3deg);
 }
  
-.photos img:nth-of-type(5) {
+.photos img:nth-of-type(1) {
     left: 450px;
     top: 50px;
     -webkit-transform: rotate(2deg);
