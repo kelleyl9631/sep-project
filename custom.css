@@ -9,7 +9,6 @@ body {
 
 #myNavbar {
     background-color: rgba(255, 255, 255, 0.5);
-    padding-left: 200px;
     padding-top: 50px;
     font-family: Chewy;
     font-size: 18px;
@@ -21,74 +20,13 @@ body {
     
 }
 
-#h1 {
-    padding-top: 50px;
-    text-align: center;
-    background-image: url(img/key.JPG);
-    background-size: cover;
-    height: 200px;
-    background-position: center;
- font-family:Dancing Script;
-    color:white; 
-}
-
-
-/*animation for text*/
-
-
-#h2{
-    padding-top: 50px;
-    text-align: center;
-    background-image: url();
-    background-size:cover;
-    height: 200px;
-    background-position: center;
-    font-family:Dancing Script;
-    color:white; 
-}
-
-#h3{
-
-    font-family: Dancing Script;
-    /*color:;*/
-}
-
-
-/*animation for Shabr text*/
-
-#Come {
-    animation-name: fade1;
-    animation-duration: 2s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    font-family: Francois One, sans-serif;
-}
-
-#Code {
-    animation-name: fade2;
-    animation-duration: 1.5s;
-    animation-delay: 0.7s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    font-family: Francois One, sans-serif;
-}
-
-#With {
-    animation-name: fade3;
-    animation-duration: 1.5s;
-    animation-delay: 1.4s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    font-family: Francois One, sans-serif;
-}
-
-#Us {
-    animation-name: fade4;
-    animation-duration: 1.5s;
-    animation-delay: 2.1s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    font-family: Francois One, sans-serif;
+marquee {
+    margin: auto;
+    height: 100px;
+    padding-top: 30px;
+    font-family: Handlee;
+    font-size: 25px;
+    background-color: lightblue
 }
 
 @keyframes fade1 {
@@ -519,13 +457,23 @@ body {
 /*}*/
 
 @media only screen and (max-width: 1200px) {}
-
+marquee{
+    width: 1200px;
+}
 @media only screen and (max-width: 992px) {}
 #myNavbar{
         text-align:center;
+}
+
+marquee{
+    width: 992px;
 }
 @media only screen and (max-width: 768px) {}
 #myNavbar{
     
         text-align:center;
 }
+marquee{
+    width: 768px;
+}
+
