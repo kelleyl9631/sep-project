@@ -21,12 +21,14 @@ body {
 }
 
 marquee {
+    width: 100%;
     margin: auto;
-    height: 100px;
+    height: 200px;
     padding-top: 30px;
     font-family: Handlee;
     font-size: 25px;
-    background-color: lightblue
+    background-color: lightblue;
+    
 }
 
 @keyframes fade1 {
@@ -457,23 +459,31 @@ marquee {
 /*}*/
 
 @media only screen and (max-width: 1200px) {}
+
+
+#myNavbar{
+        font-size: 18px;
+}
 marquee{
+
     width: 1200px;
 }
 @media only screen and (max-width: 992px) {}
 #myNavbar{
-        text-align:center;
+    
+        font-size: 26px;
 }
 
 marquee{
     width: 992px;
 }
 @media only screen and (max-width: 768px) {}
-#myNavbar{
-    
-        text-align:center;
+
+#myNavbar {
+    font-size: 36px;
 }
 marquee{
+
     width: 768px;
 }
 
