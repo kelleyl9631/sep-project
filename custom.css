@@ -19,12 +19,14 @@ body {
 }
 
 marquee {
+    width: 100%;
     margin: auto;
-    height: 100px;
+    height: 200px;
     padding-top: 30px;
     font-family: Handlee;
     font-size: 25px;
-    background-color: lightblue
+    background-color: lightblue;
+    
 }
 
 @keyframes fade1 {
@@ -111,6 +113,7 @@ marquee {
 /*    border: solid 1px black;*/
 /*}*/
 
+<<<<<<< HEAD
 @media only screen and (max-width: 1200px) {
     marquee {
         width: 1200px;
