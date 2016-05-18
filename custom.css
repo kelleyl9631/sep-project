@@ -81,7 +81,7 @@ figcaption {
     font-family: Lobster;
 }
 
-#hack, #class, #pp, #csfair, #lab {
+#hack, #class, #pp,, #lab {
     width: 100%;
 }
 
@@ -113,4 +113,4 @@ figcaption {
         text-align: center;
         font-size: 36px;
     }
-
+}
