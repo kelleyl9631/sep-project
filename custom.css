@@ -65,7 +65,7 @@ marquee {
     padding-top: 55px;
     font-family: Handlee;
     font-size: 30px;
-    background: linear-gradient(#d1dffd,#bcdfff,	#aaf9ff);
+    background: linear-gradient(#d1dffd,#bcdfff,#aaf9ff);
 }
 
 .photos {
@@ -91,7 +91,7 @@ figcaption {
         line-height: 1.6;
     }
     #myNavbar {
-        font-size: 50px;
+        font-size: 45px;
     }
 
 }
@@ -99,7 +99,7 @@ figcaption {
 @media only screen and (max-width: 992px) {
     #myNavbar {
         text-align: center;
-        font-size: 40px;
+        font-size: 32px;
     }
 
 }
@@ -107,6 +107,6 @@ figcaption {
 @media only screen and (max-width: 768px) {
     #myNavbar {
         text-align: center;
-        font-size: 36px;
+        font-size: 30px;
     }
 }
