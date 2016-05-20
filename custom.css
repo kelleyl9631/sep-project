@@ -43,17 +43,6 @@ p {
 #collapse {
     background-color: gray;
 }
-
-.intro {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('img/code.jpg') no-repeat bottom center scroll;
-    background-size: cover;
-}
-
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
