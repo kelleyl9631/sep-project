@@ -43,12 +43,12 @@ p {
 #collapse {
     background-color: gray;
 }
-.intro .intro-body {
-    display: table-cell;
-    vertical-align: middle;
+/*.intro .intro-body {*/
+/*    display: table-cell;*/
+/*    vertical-align: middle;*/
     
     
-}
+/*}*/
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
@@ -58,14 +58,15 @@ p {
     font-size: 30px;
 }
 
-marquee {
-    width: 100%;
+#header {
+
     margin: auto;
-    height: 150px;
+    height: 300px;
     padding-top: 55px;
     font-family: Handlee;
     font-size: 30px;
-    background: linear-gradient(#d1dffd,#bcdfff,#aaf9ff);
+    background-position: center;
+    background-size: cover;
 }
 
 .photos {
