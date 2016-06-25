@@ -17,6 +17,7 @@ p {
     font-size: 25px;
     line-height: 1.5;
     color: white;
+    text-shadow: black 2px 2px 0.8px;
     text-align: center;
     font-family: Handlee;
 }
@@ -76,18 +77,30 @@ p {
 }
 
 figcaption {
-    color: black;
+    color: white;
+    text-shadow: black 2px 2px 0.8px;
     font-size: 25px;
     font-family: Lobster;
 }
 
+#gallery-intro{
+    text-shadow: black 2px 2px 0.8px;
+}
 #hack,
 #class,
-#pp,
 #lab {
     width: 100%;
+
 }
 
+#pp{
+    width:60%;
+
+}
+
+figure{
+    margin: 20px;
+}
 #portfolios {
     padding-top: 20px;
     padding-bottom: 20px;
